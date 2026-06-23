@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node *)"
+      "Bash(node *)",
+      "PowerShell(Get-NetTCPConnection *)",
+      "PowerShell(Stop-Process *)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(gh run *)",
+      "Bash(gh api *)"
     ]
   }
 }
